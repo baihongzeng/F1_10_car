@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: baihong_zeng_safety
+Description: Description of baihong_zeng_safety
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

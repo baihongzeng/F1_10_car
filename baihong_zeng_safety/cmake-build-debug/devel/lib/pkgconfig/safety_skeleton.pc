@@ -1,0 +1,8 @@
+prefix=/home/baihong/baihong_ws/src/baihong_zeng_safety/cmake-build-debug/devel
+
+Name: safety_skeleton
+Description: Description of safety_skeleton
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/baihong/baihong_ws/src/baihong_zeng_safety/cmake-build-debug/devel/lib 
+Requires: 

@@ -1,0 +1,5 @@
+<launch>
+  <node name="lidar_processing" pkg="baihong_zeng_roslab" type="baihong_zeng_roslab" />
+
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find baihong_zeng_roslab)/rviz/correct.rviz" />
+</launch>

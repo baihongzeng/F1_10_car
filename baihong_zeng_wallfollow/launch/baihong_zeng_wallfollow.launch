@@ -1,0 +1,5 @@
+<launch>
+  <node name="baihong_zeng_wallfollow" pkg="baihong_zeng_wallfollow" type="baihong_zeng_wallfollow" />
+
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find baihong_zeng_roslab)/rviz/correct.rviz" />
+</launch>

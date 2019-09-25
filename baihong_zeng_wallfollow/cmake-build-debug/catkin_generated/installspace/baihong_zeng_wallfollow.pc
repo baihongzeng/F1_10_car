@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: baihong_zeng_wallfollow
+Description: Description of baihong_zeng_wallfollow
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lbaihong_zeng_wallfollow
+Requires: roscpp rospy std_msgs
