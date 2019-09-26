@@ -173,7 +173,7 @@ private:
     }
 
     //choose the middle point of the MaxLengthGap as the furtherest point
-    int findMaxInMaxGap(std::vector<std::pair<float, float>> & array, gap largest_gap){
+    int findMidInMaxGap(std::vector<std::pair<float, float>> & array, gap largest_gap){
         point furtherest_point;
         furtherest_point.value = 0;
 
@@ -194,19 +194,20 @@ public:
         // preprocess the lidar range info like inf and nan
         std::vector<float> scan_array = scan_msg->ranges;
         std::vector<std::pair<float, float>> processed_range = preprocess_lidar_range(scan_array, scan_msg->range_max, scan_msg->angle_increment,scan_msg->angle_min);
-
         gap largest_gap = findMaxLengthGap(processed_range);
-
         disparity(processed_range, largest_gap);
-        int furtherest_point = findMaxInMaxGap(processed_range, largest_gap);
+        int furtherest_point = findMidInMaxGap(processed_range, largest_gap);
+
         //ROS_INFO("max_index: %d",furtherest_point);
         float steering_angle = processed_range[furtherest_point].first;
+        //regulate the steering angle to decrease the phenomenon of wobbly
         if(fabs(steering_angle) < 7){
             steering_angle = 0;
         }
         ackermann_msgs::AckermannDriveStamped publish_drive;
         publish_drive.drive.steering_angle = processed_range[furtherest_point].first;
-        //publish_drive.drive.steering_angle = processed_range[direction_index].first;
+
+        //regulate the speed according to the steering angle
         float speed = 3;
         if (fabs(steering_angle) <= 10){
             speed = 3;
