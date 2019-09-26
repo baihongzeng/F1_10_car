@@ -1,8 +1,8 @@
-prefix=/home/baihong/baihong_ws/src/baihong_zeng_roslab/cmake-build-debug/devel
+prefix=/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab/cmake-build-debug/devel
 
 Name: baihong_zeng_roslab
 Description: Description of baihong_zeng_roslab
 Version: 0.0.0
-Cflags: -I/home/baihong/baihong_ws/src/baihong_zeng_roslab/cmake-build-debug/devel/include -I/home/baihong/baihong_ws/src/baihong_zeng_roslab/include
-Libs: -L/home/baihong/baihong_ws/src/baihong_zeng_roslab/cmake-build-debug/devel/lib -lbaihong_zeng_roslab
+Cflags: -I/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab/cmake-build-debug/devel/include -I/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab/include
+Libs: -L/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab/cmake-build-debug/devel/lib -lbaihong_zeng_roslab
 Requires: roscpp rospy std_msgs message_runtime

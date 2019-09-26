@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/baihong/baihong_ws/src/baihong_zeng_reactive/src/reactive_gap_follow.cpp
+/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/src/reactive_gap_follow.cpp
 ros/ros.h
 -
 sensor_msgs/LaserScan.h
@@ -17,12 +17,6 @@ std_msgs/Bool.h
 -
 vector
 -
-reactive_gap_follow.h
-/home/baihong/baihong_ws/src/baihong_zeng_reactive/src/reactive_gap_follow.h
-queue
--
-
-/home/baihong/baihong_ws/src/baihong_zeng_reactive/src/reactive_gap_follow.h
 
 /opt/ros/kinetic/include/ackermann_msgs/AckermannDrive.h
 string

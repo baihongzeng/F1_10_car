@@ -67,8 +67,8 @@ set(baihong_zeng_safety_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(baihong_zeng_safety_SOURCE_PREFIX /home/baihong/baihong_ws/src/baihong_zeng_safety)
-  set(baihong_zeng_safety_DEVEL_PREFIX /home/baihong/baihong_ws/src/baihong_zeng_safety/cmake-build-debug/devel)
+  set(baihong_zeng_safety_SOURCE_PREFIX /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_safety)
+  set(baihong_zeng_safety_DEVEL_PREFIX /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_safety/cmake-build-debug/devel)
   set(baihong_zeng_safety_INSTALL_PREFIX "")
   set(baihong_zeng_safety_PREFIX ${baihong_zeng_safety_DEVEL_PREFIX})
 else()

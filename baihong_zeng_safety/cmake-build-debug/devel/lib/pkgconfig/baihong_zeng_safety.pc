@@ -1,8 +1,8 @@
-prefix=/home/baihong/baihong_ws/src/baihong_zeng_safety/cmake-build-debug/devel
+prefix=/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_safety/cmake-build-debug/devel
 
 Name: baihong_zeng_safety
 Description: Description of baihong_zeng_safety
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/baihong/baihong_ws/src/baihong_zeng_safety/cmake-build-debug/devel/lib 
+Libs: -L/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_safety/cmake-build-debug/devel/lib 
 Requires: 

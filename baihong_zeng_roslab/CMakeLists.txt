@@ -109,8 +109,7 @@ catkin_package(
 include_directories(
  include
   ${catkin_INCLUDE_DIRS}
-        /home/baihong/baihong_ws/devel/include/baihong_zeng_roslab
-
+        /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab
 )
 
 ## Declare a C++ library

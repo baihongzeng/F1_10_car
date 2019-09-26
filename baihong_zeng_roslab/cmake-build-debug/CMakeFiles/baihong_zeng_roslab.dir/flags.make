@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"baihong_zeng_roslab\"
 
-CXX_INCLUDES = -I/home/baihong/baihong_ws/src/baihong_zeng_roslab/cmake-build-debug/devel/include -I/home/baihong/baihong_ws/src/baihong_zeng_roslab/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/baihong/baihong_ws/devel/include/baihong_zeng_roslab 
+CXX_INCLUDES = -I/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab/cmake-build-debug/devel/include -I/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_roslab 
 

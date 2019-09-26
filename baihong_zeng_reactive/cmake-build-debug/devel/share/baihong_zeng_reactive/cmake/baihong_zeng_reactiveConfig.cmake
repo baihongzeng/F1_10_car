@@ -67,8 +67,8 @@ set(baihong_zeng_reactive_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(baihong_zeng_reactive_SOURCE_PREFIX /home/baihong/baihong_ws/src/baihong_zeng_reactive)
-  set(baihong_zeng_reactive_DEVEL_PREFIX /home/baihong/baihong_ws/src/baihong_zeng_reactive/cmake-build-debug/devel)
+  set(baihong_zeng_reactive_SOURCE_PREFIX /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive)
+  set(baihong_zeng_reactive_DEVEL_PREFIX /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/cmake-build-debug/devel)
   set(baihong_zeng_reactive_INSTALL_PREFIX "")
   set(baihong_zeng_reactive_PREFIX ${baihong_zeng_reactive_DEVEL_PREFIX})
 else()
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(baihong_zeng_reactive_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/baihong/baihong_ws/src/baihong_zeng_reactive/include " STREQUAL " ")
+if(NOT "/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/include " STREQUAL " ")
   set(baihong_zeng_reactive_INCLUDE_DIRS "")
-  set(_include_dirs "/home/baihong/baihong_ws/src/baihong_zeng_reactive/include")
+  set(_include_dirs "/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/baihong/baihong_ws/src/baihong_zeng_reactive/include " STREQUAL " 
         message(FATAL_ERROR "Project 'baihong_zeng_reactive' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'baihong_zeng_reactive' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/baihong/baihong_ws/src/baihong_zeng_reactive/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'baihong_zeng_reactive' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/${idir}'.  ${_report}")
     endif()
     _list_append_unique(baihong_zeng_reactive_INCLUDE_DIRS ${include})
   endforeach()
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/baihong/baihong_ws/src/baihong_zeng_reactive/cmake-build-debug/devel/lib;/home/baihong/catkin_ws/devel/lib;/home/baihong/baihong_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/cmake-build-debug/devel/lib;/home/baihong/catkin_ws/devel/lib;/home/baihong/baihong_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

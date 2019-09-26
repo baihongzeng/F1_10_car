@@ -1,8 +1,8 @@
-prefix=/home/baihong/baihong_ws/src/baihong_zeng_reactive/cmake-build-debug/devel
+prefix=/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/cmake-build-debug/devel
 
 Name: baihong_zeng_reactive
 Description: Description of baihong_zeng_reactive
 Version: 0.0.0
-Cflags: -I/home/baihong/baihong_ws/src/baihong_zeng_reactive/include
-Libs: -L/home/baihong/baihong_ws/src/baihong_zeng_reactive/cmake-build-debug/devel/lib -lbaihong_zeng_reactive
+Cflags: -I/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/include
+Libs: -L/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_reactive/cmake-build-debug/devel/lib -lbaihong_zeng_reactive
 Requires: roscpp rospy std_msgs
