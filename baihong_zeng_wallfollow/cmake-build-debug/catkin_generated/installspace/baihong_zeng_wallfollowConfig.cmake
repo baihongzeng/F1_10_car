@@ -67,8 +67,8 @@ set(baihong_zeng_wallfollow_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(baihong_zeng_wallfollow_SOURCE_PREFIX /home/baihong/baihong_ws/src/baihong_zeng_wallfollow)
-  set(baihong_zeng_wallfollow_DEVEL_PREFIX /home/baihong/baihong_ws/src/baihong_zeng_wallfollow/cmake-build-debug/devel)
+  set(baihong_zeng_wallfollow_SOURCE_PREFIX /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_wallfollow)
+  set(baihong_zeng_wallfollow_DEVEL_PREFIX /home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_wallfollow/cmake-build-debug/devel)
   set(baihong_zeng_wallfollow_INSTALL_PREFIX "")
   set(baihong_zeng_wallfollow_PREFIX ${baihong_zeng_wallfollow_DEVEL_PREFIX})
 else()

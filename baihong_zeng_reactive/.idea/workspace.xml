@@ -9,6 +9,7 @@
       <config projectName="baihong_zeng_reactive" targetName="download_extra_data" />
       <config projectName="baihong_zeng_reactive" targetName="gmock_main" />
       <config projectName="baihong_zeng_reactive" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="baihong_zeng_reactive" targetName="baihong_zeng_reactive" />
       <config projectName="baihong_zeng_reactive" targetName="clean_test_results" />
       <config projectName="baihong_zeng_reactive" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="baihong_zeng_reactive" targetName="rosgraph_msgs_generate_messages_eus" />
@@ -16,7 +17,6 @@
       <config projectName="baihong_zeng_reactive" targetName="gtest_main" />
       <config projectName="baihong_zeng_reactive" targetName="roscpp_generate_messages_cpp" />
       <config projectName="baihong_zeng_reactive" targetName="doxygen" />
-      <config projectName="baihong_zeng_reactive" targetName="std_msgs_generate_messages_py" />
       <config projectName="baihong_zeng_reactive" targetName="gtest" />
       <config projectName="baihong_zeng_reactive" targetName="tests" />
       <config projectName="baihong_zeng_reactive" targetName="gmock" />
@@ -24,7 +24,7 @@
       <config projectName="baihong_zeng_reactive" targetName="std_msgs_generate_messages_eus" />
       <config projectName="baihong_zeng_reactive" targetName="roscpp_generate_messages_py" />
       <config projectName="baihong_zeng_reactive" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="baihong_zeng_reactive" targetName="baihong_zeng_reactive" />
+      <config projectName="baihong_zeng_reactive" targetName="std_msgs_generate_messages_py" />
       <config projectName="baihong_zeng_reactive" targetName="run_tests" />
       <config projectName="baihong_zeng_reactive" targetName="roscpp_generate_messages_lisp" />
     </generated>
@@ -37,9 +37,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ec6abb6-79fd-409e-8f43-9f3d87b3d472" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/baihong_zeng_reactive.dir/src/reactive_gap_follow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/baihong_zeng_reactive.dir/src/reactive_gap_follow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/lib/baihong_zeng_reactive/baihong_zeng_reactive" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/lib/baihong_zeng_reactive/baihong_zeng_reactive" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reactive_gap_follow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactive_gap_follow.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/reactive_gap_follow_origin.cpp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jq_reactive_methods/CMakeLists.txt" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunDashboard">
@@ -253,6 +250,9 @@
       <workItem from="1569460168112" duration="2868000" />
       <workItem from="1569463038883" duration="6941000" />
       <workItem from="1569521437930" duration="754000" />
+      <workItem from="1569609308788" duration="759000" />
+      <workItem from="1569612098588" duration="111000" />
+      <workItem from="1569612351030" duration="15000" />
     </task>
     <servers />
   </component>
@@ -273,6 +273,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/reactive_gap_follow.cpp</url>
+          <line>206</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="array[144]" />
