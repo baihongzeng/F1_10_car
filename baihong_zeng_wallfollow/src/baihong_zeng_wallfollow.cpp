@@ -70,13 +70,13 @@ private:
     {
         float speed;
         if (fabs(steering_angle) <= 10){
-            speed = 0.5;//1.5
+            speed = 1.5;//1.5
         }
         else if (fabs(steering_angle) <= 20 && fabs(steering_angle) > 10){
-            speed = 0.1;//1.0
+            speed = 1.0;//1.0
         }
         else{
-            speed = 0.1;//0.5
+            speed = 0.5;//0.5
         }
 
         return speed;
