@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: baihong_zeng_pure_pursuit
-Description: Description of baihong_zeng_pure_pursuit
-Version: 0.0.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

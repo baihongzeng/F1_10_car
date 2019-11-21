@@ -1,8 +1,0 @@
-prefix=/home/baihong/baihong_ws/src/F1_10_car/rrt/cmake-build-debug/devel
-
-Name: rrt
-Description: Description of rrt
-Version: 0.0.0
-Cflags: -I/home/baihong/baihong_ws/src/F1_10_car/rrt/include
-Libs: -L/home/baihong/baihong_ws/src/F1_10_car/rrt/cmake-build-debug/devel/lib -lrrt
-Requires: ackermann_msgs geometry_msgs roscpp rospy sensor_msgs std_msgs tf

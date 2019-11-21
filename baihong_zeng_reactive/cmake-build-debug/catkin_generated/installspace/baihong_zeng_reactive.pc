@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: baihong_zeng_reactive
-Description: Description of baihong_zeng_reactive
-Version: 0.0.0
-Cflags: -I/usr/local/include
-Libs: -L/usr/local/lib -lbaihong_zeng_reactive
-Requires: roscpp rospy std_msgs
