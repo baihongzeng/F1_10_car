@@ -1,0 +1,6 @@
+/home/baihong/Documents/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/baihong/baihong_ws/src/F1_10_car/team_sixsixsix_rrt_lab
+CMake Error at CMakeLists.txt:22:
+  Parse error.  Expected a newline, got identifier with text "c".
+
+
+-- Configuring incomplete, errors occurred!

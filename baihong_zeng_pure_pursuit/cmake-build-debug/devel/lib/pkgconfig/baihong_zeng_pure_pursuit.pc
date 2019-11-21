@@ -1,0 +1,8 @@
+prefix=/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_pure_pursuit/cmake-build-debug/devel
+
+Name: baihong_zeng_pure_pursuit
+Description: Description of baihong_zeng_pure_pursuit
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/baihong/baihong_ws/src/F1_10_car/baihong_zeng_pure_pursuit/cmake-build-debug/devel/lib 
+Requires: 

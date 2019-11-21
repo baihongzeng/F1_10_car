@@ -86,7 +86,6 @@ public:
                 marker.pose.position.x = x_data[i];
                 marker.pose.position.y = y_data[i];
                 vis_pub.publish(marker);
-                ROS_INFO("111111111");
                 ros::Duration(0.01).sleep();
             }
         }
@@ -108,7 +107,7 @@ public:
 
         tf::Matrix3x3 m(q);
         m.getRPY(roll, pitch, yaw);
-
+        ROS_INFO("YAW:%f", yaw);
         
 
         vector<double> x_car(x_data.size(), 0);
