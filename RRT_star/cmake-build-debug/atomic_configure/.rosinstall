@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/baihong/baihong_ws/src/F1_10_car/RRT_star/cmake-build-debug/devel/setup.sh
