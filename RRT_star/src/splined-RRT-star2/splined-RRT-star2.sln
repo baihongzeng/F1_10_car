@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splined-RRT-star2", "splined-RRT-star2.vcxproj", "{1B16BB87-A581-486B-95C5-3428F1B834AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Debug|x64.ActiveCfg = Debug|x64
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Debug|x64.Build.0 = Debug|x64
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Debug|x86.Build.0 = Debug|Win32
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Release|x64.ActiveCfg = Release|x64
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Release|x64.Build.0 = Release|x64
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Release|x86.ActiveCfg = Release|Win32
+		{1B16BB87-A581-486B-95C5-3428F1B834AC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABFB2D1D-D9DB-40AD-A561-F46E320E6393}
+	EndGlobalSection
+EndGlobal

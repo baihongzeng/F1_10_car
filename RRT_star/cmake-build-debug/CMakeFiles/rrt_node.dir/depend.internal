@@ -133,6 +133,8 @@ CMakeFiles/rrt_node.dir/node/rrt_node.cpp.o
  /opt/ros/kinetic/include/visualization_msgs/Marker.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
+CMakeFiles/rrt_node.dir/src/pure_pursuit.cpp.o
+ /home/baihong/baihong_ws/src/F1_10_car/RRT_star/src/pure_pursuit.cpp
 CMakeFiles/rrt_node.dir/src/rrt.cpp.o
  ../include/rrt/rrt.h
  /home/baihong/baihong_ws/src/F1_10_car/RRT_star/src/rrt.cpp

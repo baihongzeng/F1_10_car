@@ -40,8 +40,10 @@
 // You can choose to use this or not
 typedef struct Node {
     double x, y;
+    double mid_x, mid_y;
     double cost; // only used for RRT*
     int parent; // index of parent node in the tree vector
+    std::vector<int> son; // index of son node in the tree vector
     bool is_root = false;
 } Node;
 

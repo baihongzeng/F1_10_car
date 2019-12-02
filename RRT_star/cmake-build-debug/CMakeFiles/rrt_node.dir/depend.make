@@ -133,6 +133,8 @@ CMakeFiles/rrt_node.dir/node/rrt_node.cpp.o: /opt/ros/kinetic/include/visualizat
 CMakeFiles/rrt_node.dir/node/rrt_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 CMakeFiles/rrt_node.dir/node/rrt_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 
+CMakeFiles/rrt_node.dir/src/pure_pursuit.cpp.o: ../src/pure_pursuit.cpp
+
 CMakeFiles/rrt_node.dir/src/rrt.cpp.o: ../include/rrt/rrt.h
 CMakeFiles/rrt_node.dir/src/rrt.cpp.o: ../src/rrt.cpp
 CMakeFiles/rrt_node.dir/src/rrt.cpp.o: /opt/ros/kinetic/include/ackermann_msgs/AckermannDrive.h
